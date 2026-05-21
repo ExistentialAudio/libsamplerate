@@ -1,0 +1,5 @@
+
+module libsamplerate {
+    umbrella header "samplerate.h"
+    export *
+}
