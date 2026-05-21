@@ -33,6 +33,7 @@ let package = Package(
                 .define("ENABLE_SINC_FAST_CONVERTER", to: "1"),
                 .define("HAVE_STDBOOL_H", to: "1"),
             ]
-        )
+        ),
+        .testTarget(name: "SecretRabbitCodeTests", dependencies: ["libsamplerate"])
     ],
 )
